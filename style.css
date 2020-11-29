@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+:root{
+    --primary-color : #FDE68A;
+    --secondary-color : #92400E;
+}
+
+body{
+    margin : 0;
+    font-family: 'Orbitron' , sans-serif;
+}
+
+h2{
+    margin: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.div-body{
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+#year{
+    margin: 5rem 25% 2rem 25%;
+    width: 50%;
+    height: 5vh;
+    display: block;
+    text-align: center;
+    
+}
+
+#btn-year{
+    margin: 1rem;
+    padding: 1rem 5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+}
+
+#btn-year:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.disp-text{
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 3rem 20%;
+}
+
+#outputText{
+    width: 50%;
+    height: 10vh;
+    border: 1px solid;
+    margin: 1rem 25%;
+    padding: 1rem;
+    color: var(--secondary-color);
+
+}
+
+.space{
+    width: 80%;
+    border: 1px solid white;
+    height: 3vh
+}
+
+.footer{
+    background-color: var(--primary-color);
+    margin: 0;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+
+}
+
+.footer li{
+    display: inline;
+    padding: 1rem;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    padding: 1rem;
+}

@@ -13,7 +13,9 @@ function checkLeapYear(year){
         }
     }
     else if (year.length !== 4){
+        outputTexts.innerText = " ";
         alert("Enter correct four digits year");
+        
     }   
 }
 
